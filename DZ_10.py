@@ -10,6 +10,6 @@ data.head()
 
 data.loc[data['whoAmI'] == 'robot', 'robot'] = True
 data.loc[data['whoAmI'] == 'human', 'robot'] = False
-data.loc[data['whoAmI'] == 'robot', 'human'] = True
-data.loc[data['whoAmI'] == 'human', 'human'] = False
+data.loc[data['whoAmI'] == 'robot', 'human'] = False
+data.loc[data['whoAmI'] == 'human', 'human'] = True
 data
